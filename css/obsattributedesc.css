@@ -1,5 +1,18 @@
 .obsDescElement {
-	display:block;
-	float:left;
-	padding:5px 2px;
+	background: #ccc;
+	padding: 10px 10px;
+	border-radius: 5px;
+
+}
+
+.obsDescElement p{
+	padding:0;
+	margin:0;
+	margin-top: 10px;
+
+
+}
+
+.obsDescElement a{
+	color: #5D9CEC;
 }

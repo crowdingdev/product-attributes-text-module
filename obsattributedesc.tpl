@@ -47,7 +47,6 @@ $('document').ready( function() {
 
 	/*This adds the attribute info text to the selected options on page load*/
 	$('#attributes input').each(function(n, o) {
-
 		if ( $(o).is(':checked') ){
 			value = $(this).val();
 			if( $('#obsAttrDesc_'+value).length ) {
@@ -60,7 +59,7 @@ $('document').ready( function() {
 	});
 
 
-	$('#attributes input').change(function() {
+	$('#attributes input').on('click',function() {
 		/*This adds the attribute info text to the selected option when user changes it*/
 		value = $(this).val();
 		if( $('#obsAttrDesc_'+value).length ) {
